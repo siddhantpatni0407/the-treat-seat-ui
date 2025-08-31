@@ -1,0 +1,62 @@
+.header {
+  background: linear-gradient(135deg, #ff7f50, #ffb347);
+  color: #fff;
+  padding: 5rem 2rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.hero-buttons .btn-primary-custom {
+  background-color: #fff;
+  color: #ff7f50;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn-primary-custom:hover {
+  background-color: #ffe0cc;
+  color: #ff5a00;
+}
+
+.hero-buttons .btn-secondary-custom {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn-secondary-custom:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.features {
+  gap: 2rem;
+}
+
+.feature-card {
+  background: #fff;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
